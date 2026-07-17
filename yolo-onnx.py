@@ -5,12 +5,12 @@ import os
 import time
 
 # === Path model dan video input ===
-model_path = "best128.onnx"   # model yolov8 ONNX
+model_path = "best640.onnx"   # model yolov8 ONNX
 video_path = 1
 coco_names_path = "coco.names"
 
 # === Parameter deteksi ===
-input_size = 128         # input size diubah jadi 128x128
+input_size = 640
 conf_threshold = 0.25
 nms_threshold = 0.4
 
